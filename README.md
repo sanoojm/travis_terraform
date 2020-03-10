@@ -1,1 +1,1 @@
-[![CircleCI](https://travis-ci.com/sanoojm/travis_terraform.svg?branch=master)]
+[![TravisCI](https://travis-ci.com/sanoojm/travis_terraform.svg?branch=master)]

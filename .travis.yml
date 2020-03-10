@@ -1,6 +1,6 @@
 # Define environment
 dist: xenial # Ubuntu 16.04
-#language: bash
+language: python
 
 # Export variables
 env:
@@ -30,7 +30,5 @@ jobs:
       script:
         - echo "Executing Terraform Plan on pull request code"
         - terraform init 
+        - terraform fmt -check
         - terraform validate 
-
-
-
