@@ -30,5 +30,5 @@ jobs:
       script:
         - echo "Executing Terraform Plan on pull request code"
         - terraform init 
+        - terraform fmt -check
         - terraform validate 
-        - terraform valid
