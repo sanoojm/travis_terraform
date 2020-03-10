@@ -31,6 +31,4 @@ jobs:
         - echo "Executing Terraform Plan on pull request code"
         - terraform init 
         - terraform validate 
-
-
-
+        - terraform valid
