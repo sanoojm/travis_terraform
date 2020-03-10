@@ -9,6 +9,7 @@ env:
 # Only build pushes to master branch
 branches:
   only:
+    - master
     - develop
 
 # Install dependencies
